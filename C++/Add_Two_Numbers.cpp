@@ -32,6 +32,7 @@ public:
 
         }
         ListNode* result = listHead -> next;
+        delete listHead;
         return result;
     }
 };
