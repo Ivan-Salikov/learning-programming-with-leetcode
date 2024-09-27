@@ -8,5 +8,5 @@ public:
         }
         return -1;
     }
-    // or haystack.find(needle);
+    // or return haystack.find(needle);
 };
